@@ -1,0 +1,14 @@
+[package]
+name = "truespeech"
+version = "0.1.0"
+description = "DSP Group TrueSpeech 8.5 decoder: a Rust port of FFmpeg's libavcodec/truespeech.c"
+license = "LGPL-2.1-or-later"
+edition = "2024"
+rust-version = "1.90"
+
+[lib]
+# rlib for the comparison example and tests; cdylib = truespeech.dll, which the app loads at run time
+crate-type = ["rlib", "cdylib"]
+
+# Kept as its own crate because it is a port of LGPL code (see LICENSE and README.md): the rest of the app is not.
+[dependencies]
