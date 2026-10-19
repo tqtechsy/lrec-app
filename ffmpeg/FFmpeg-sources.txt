@@ -1,0 +1,17 @@
+FFmpeg in LREC Converter
+========================
+
+ffmpeg.exe (in the "ffmpeg" folder next to the app) is FFmpeg 9.0.2, built with only the parts the app uses and
+linked with x264 and LAME. It is a separate program the app starts; it is licensed under the GNU General Public
+License version 3 (see FFmpeg-GPLv3.txt and FFmpeg-LICENSE.txt in this folder).
+
+Sources of what is in it:
+- FFmpeg 9.0.2: https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz
+- x264 0.165.r3222 (b35605a): https://code.videolan.org/videolan/x264
+- LAME 3.100: https://lame.sourceforge.io
+How it was built (configure options): build-ffmpeg.sh, published with the app's releases at
+https://github.com/tqtechsy/lrec-converter
+
+The TrueSpeech decoder (truespeech.dll) is a port of FFmpeg's TrueSpeech decoder, licensed under the GNU Lesser
+General Public License 2.1 or later (TrueSpeech-decoder-LGPL-2.1.txt). Its source is published at
+https://github.com/tqtechsy/lrec-converter. You may replace truespeech.dll with your own build of that source.
