@@ -10,8 +10,8 @@ Sources of what is in it:
 - x264 0.165.r3222 (b35605a): https://code.videolan.org/videolan/x264
 - LAME 3.100: https://lame.sourceforge.io
 How it was built (configure options): build-ffmpeg.sh, published with the app's releases at
-https://github.com/tqtechsy/lrec-converter
+https://github.com/tqtechsy/lrec-app
 
 The TrueSpeech decoder (truespeech.dll) is a port of FFmpeg's TrueSpeech decoder, licensed under the GNU Lesser
 General Public License 2.1 or later (TrueSpeech-decoder-LGPL-2.1.txt). Its source is published at
-https://github.com/tqtechsy/lrec-converter. You may replace truespeech.dll with your own build of that source.
+https://github.com/tqtechsy/lrec-app. You may replace truespeech.dll with your own build of that source.
