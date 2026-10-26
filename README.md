@@ -2,7 +2,7 @@
 
 **حوّل تسجيلات محاضرات الجامعة الافتراضية السورية (`.lrec`) إلى فيديو MP4 أو صوت MP3 يعمل في أي مكان.**
 
-[تنزيل أحدث إصدار](https://github.com/tqtechsy/lrec-converter/releases/latest) · Windows 10 و 11
+[تنزيل أحدث إصدار](https://github.com/tqtechsy/lrec-app/releases/latest) · Windows 10 و 11
 
 - **سريع:** تجهز محاضرة مدتها ساعة في نحو دقيقتين ونصف، دون حذف أي شيء منها.
 - **الدردشة:** يمكن عرض المحادثات التي تمت أثناء المحاضرة مع الفيديو، ويمكن أيضاً البحث بسرعة داخل كامل هذه المحادثات عن كلمة مفتاحية مثل "الوظيفة"، "الامتحان" ، مما يسهل الوصول إلى المحاضرة المطلوبة والزمن بدقة.
@@ -18,7 +18,7 @@
 
 **Turn SVU lecture recordings (`.lrec`) into MP4 videos or MP3 sound that play anywhere.**
 
-[Download the latest version](https://github.com/tqtechsy/lrec-converter/releases/latest) · Windows 10 and 11
+[Download the latest version](https://github.com/tqtechsy/lrec-app/releases/latest) · Windows 10 and 11
 
 - **Fast:** an hour-long lecture is ready in about 2½ minutes, with nothing cut out.
 - **Chat:** the conversations held during the lecture can be shown with the video, and you can quickly search all of them for a keyword such as "assignment" or "exam", which takes you straight to the right lecture and the exact moment.
